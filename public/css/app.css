@@ -1,0 +1,335 @@
+ * {
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+body {
+    background-color: gainsboro;
+}
+.all {
+    display: flex;
+}
+.sv {
+    padding-right: 2vw;
+    padding-top: 3vh;
+}
+.big {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: fit-content;
+}
+.left-top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+    padding-left: 1vw;
+    /* width: 20vw; */
+    gap: 3.5vh;
+
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img1 {
+    width: 85px;
+}
+.search {
+    border-color: rgba(255, 255, 0, 0.47);
+    background-color: rgba(168, 168, 164, 0.319);
+    padding: 0.6vw;
+    border-width: 1px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='rgba(173,184,194,1)'%3E%3Cpath d='M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    padding-left: 2vw;
+     width: 18vw;
+     border-radius: 10px;
+     border: none;
+     
+}
+.search:hover {
+    background-color: rgba(255, 255, 0, 0.47);
+}
+.list1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1vw;
+
+}
+.list1:hover {
+    background-color: rgba(255, 255, 0, 0.47);
+    border-radius: 5px;
+    padding: 0.8vh 0.8vh;
+}
+.flex {
+    display: flex;
+    gap:0.6vw;
+}
+.p {
+    padding-top: 0.9vh;
+    color: rgb(84, 83, 83);
+}
+.but {
+    padding: 0.5vh 1vw;
+    border: none;
+    border-radius: 10px;
+    color: #7851A9;
+}
+.red {
+    background-color: #f0f40056;
+    padding: 0.4vh 0.7vw;
+    border-radius: 8px;
+}
+.list2 {
+    display: flex;
+    justify-content: space-between;
+}
+.list2:hover {
+    background-color: rgba(255, 255, 0, 0.47);
+    border-radius: 5px;
+    padding: 0.8vh 0.8vh;
+}
+.list3 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+}
+.list3:hover {
+    background-color: rgba(255, 255, 0, 0.47);
+    border-radius: 5px;
+    padding: 0.8vh 0.8vh;
+}
+.list4 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+}
+.list4:hover {
+    background-color: rgba(255, 255, 0, 0.47);
+    border-radius: 5px;
+    padding: 0.8vh 0.8vh;
+}
+.line {
+    padding-bottom: 4vh;
+    /* border-bottom: rgba(128, 128, 128, 0.496) solid 1px; */
+}
+.line:hover {
+    background-color: rgba(255, 255, 0, 0.47);
+    border-radius: 5px;
+    padding: 0.8vh 0.8vh;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #7851A9; */
+    padding-left: 0.5vw;
+    padding-top: 4vh;
+    border-top: rgba(128, 128, 128, 0.338) solid 1px;
+}
+.left-bottom {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    gap: 2vh;
+    
+}
+.clr {
+    color: rgba(84, 83, 83, 0.566);
+}
+.svg2 {
+    padding-right: 2.5vw;
+}
+.hover {
+    color: rgb(84, 83, 83);
+    padding: 0.4vw;
+}
+.hover:hover {
+   font-weight: bold;
+   border-left: rgb(75, 74, 74) solid 4px;
+   border-radius: 2px;
+   color:black;
+}
+.th {
+    border-bottom: rgba(128, 128, 128, 0.345) solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-bottom: 3vh;
+    /* border-bottom: rgba(128, 128, 128, 0.397) solid 1px; */
+}
+.before {
+    padding-top: 2vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    /* background-color: aqua; */
+    padding: 2.5vh 4vw;
+    overflow-y: scroll;
+    scrollbar-width: thin; 
+    scrollbar-color: #ece9a1db rgb(203, 204, 201); 
+}
+.lis {
+    display:flex ;
+    gap: 0.6vw;
+    color: #4e4b4be9;
+}
+.right {
+    background-color:white;
+    margin-top: 2vh;
+    border-radius: 5px;
+    width: 75vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+}
+.top {
+    display: flex;
+    color: rgb(84, 83, 83);
+
+}
+.clr2 {
+    color: black;
+}
+.small {
+    display: flex;
+    gap: 0.5vw;
+    padding-top: 0.5vh;
+    padding-left: 0.5vw;
+    font-size: 16px;
+}
+h1 {
+    padding-top: 4vh;
+}
+.im {
+    width: 40px;
+    border-radius: 50%;
+}
+.im22 {
+     width: 40px;
+    border-radius: 50%;
+}
+.im3 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.middle {
+    display: flex;
+    /* background-color: #7851A9; */
+    justify-content: space-between;
+}
+.left2 {
+    display: flex;
+    gap: 1vw;
+    padding-top: 3vh;
+    padding-right: 0.5vw;
+}
+.flex1 {
+    display: flex;
+}
+.but2{
+    padding: 0.6vw;
+    border-radius: 10px;
+    border: none;
+}
+.but3 {
+    padding: 1vh ;
+    border-radius: 10px;
+    border: none;
+}
+.mid2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4vh;
+    align-items: center;
+
+}
+.plus {
+    display: flex;
+}
+.bu{
+    border: none;
+    border-radius: 10px;
+    display: flex; /* howa container dyalna dikchy elch derna fih display flex  o align items center bch icon olktanba yt9ado */
+    align-items: center;   
+    gap: 0.3vw;
+    padding: 6px 12px;
+}
+.table { /*howa li kykheli l table ychd lina div kml*/
+    display: flex;
+    flex-direction: column; /*kykhlih ytws3 ela space kamla li end parent dyalo*/
+    padding-top: 4vh;
+    /* padding: 5vw; */
+    /* background-color: aqua; */
+}
+ .flex5 {
+    display: flex;
+    gap: 2vw;
+    /* justify-content: center; */
+ }
+ .s {
+    display: block;
+ }
+ .my-table {
+    border-collapse: collapse; /*kykheli ghi kht whd nice, single borders*/
+}
+.timg {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.td-content { /* derto ka class l div li fiha tswira o ktaba bch yjiw f line wehda ya3ni fih img o span dyal name*/
+    display: flex;
+    align-items: center; 
+    gap: 0.5rem;        
+}
+.my-table thead th {
+    padding: 1.5vh 1.5vw;
+}
+.my-table tbody td {
+     padding: 2vh 2vw;
+}
+.my-table a {
+    color: rgba(153, 153, 3, 0.771);
+    text-decoration: none;
+    font-weight: bold;
+ }
+ a:hover {
+    color: yellow;
+ }
+ .bu:hover {
+    background-color: rgba(255, 255, 0, 0.512);
+ }
+ @media (max-width:480px) {
+    .all {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 14vw; */
+    justify-content: space-between;
+    
+}
+.i {
+    padding-left: 40vw;
+}
+.left-top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+    padding-left: 6vw;
+    /* width: 20vw; */
+    gap: 3.5vh;
+
+}
+.big {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}

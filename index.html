@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+</head>
+
+<body>
+    <div class="all">
+        <div class="big">
+            <div class="left-top">
+                <div class="head">
+                    <div class="i"><img class="img1" src="./public/img/colab-logo-png_seeklogo-523241.png" alt=""></div>
+                    <div><svg class="sv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                            fill="rgb(84, 83, 83)">
+                            <path
+                                d="M17 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H7V1H9V3H15V1H17V3ZM4 9V19H20V9H4ZM6 11H8V13H6V11ZM6 15H8V17H6V15ZM10 11H18V13H10V11ZM10 15H15V17H10V15Z">
+                            </path>
+                        </svg></div>
+                </div>
+                <div>
+                    <input class="search" type="search" placeholder="search">
+                </div>
+                <div class="list1">
+                    <div class="flex">
+                        <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                            fill="rgb(84, 83, 83)">
+                            <path
+                                d="M14 21C13.4477 21 13 20.5523 13 20V12C13 11.4477 13.4477 11 14 11H20C20.5523 11 21 11.4477 21 12V20C21 20.5523 20.5523 21 20 21H14ZM4 13C3.44772 13 3 12.5523 3 12V4C3 3.44772 3.44772 3 4 3H10C10.5523 3 11 3.44772 11 4V12C11 12.5523 10.5523 13 10 13H4ZM9 11V5H5V11H9ZM4 21C3.44772 21 3 20.5523 3 20V16C3 15.4477 3.44772 15 4 15H10C10.5523 15 11 15.4477 11 16V20C11 20.5523 10.5523 21 10 21H4ZM5 19H9V17H5V19ZM15 19H19V13H15V19ZM13 4C13 3.44772 13.4477 3 14 3H20C20.5523 3 21 3.44772 21 4V8C21 8.55228 20.5523 9 20 9H14C13.4477 9 13 8.55228 13 8V4ZM15 5V7H19V5H15Z">
+                            </path>
+                        </svg>
+                        <p class="p">Dashaboard</p>
+                    </div>
+                    <div><button class="but">Beta</button></div>
+                </div>
+                <div class="list2">
+                    <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M18 10C18 6.68629 15.3137 4 12 4C8.68629 4 6 6.68629 6 10V18H18V10ZM20 18.6667L20.4 19.2C20.5657 19.4209 20.5209 19.7343 20.3 19.9C20.2135 19.9649 20.1082 20 20 20H4C3.72386 20 3.5 19.7761 3.5 19.5C3.5 19.3918 3.53509 19.2865 3.6 19.2L4 18.6667V10C4 5.58172 7.58172 2 12 2C16.4183 2 20 5.58172 20 10V18.6667ZM9.5 21H14.5C14.5 22.3807 13.3807 23.5 12 23.5C10.6193 23.5 9.5 22.3807 9.5 21Z">
+                            </path>
+                        </svg>
+                        <p class="p">Notification</p>
+                    </div>
+
+                </div>
+                <div class="list3">
+                    <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM5.76282 17H20V5H4V18.3851L5.76282 17ZM11 10H13V12H11V10ZM7 10H9V12H7V10ZM15 10H17V12H15V10Z">
+                            </path>
+                        </svg>
+                        <p class="p">Message</p>
+                    </div>
+                    <div>
+                        <p class="red">8</p>
+                    </div>
+                </div>
+                <div class="list4">
+                    <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M6.9998 6V3C6.9998 2.44772 7.44752 2 7.9998 2H19.9998C20.5521 2 20.9998 2.44772 20.9998 3V17C20.9998 17.5523 20.5521 18 19.9998 18H16.9998V20.9991C16.9998 21.5519 16.5499 22 15.993 22H4.00666C3.45059 22 3 21.5554 3 20.9991L3.0026 7.00087C3.0027 6.44811 3.45264 6 4.00942 6H6.9998ZM5.00242 8L5.00019 20H14.9998V8H5.00242ZM8.9998 6H16.9998V16H18.9998V4H8.9998V6Z">
+                            </path>
+                        </svg>
+                        <p class="p">Duplicate</p>
+                    </div>
+                    <div>
+                        <p class="red">1</p>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M2 11.9998C2 11.1353 2.1097 10.2964 2.31595 9.49631C3.40622 9.55283 4.48848 9.01015 5.0718 7.99982C5.65467 6.99025 5.58406 5.78271 4.99121 4.86701C6.18354 3.69529 7.66832 2.82022 9.32603 2.36133C9.8222 3.33385 10.8333 3.99982 12 3.99982C13.1667 3.99982 14.1778 3.33385 14.674 2.36133C16.3317 2.82022 17.8165 3.69529 19.0088 4.86701C18.4159 5.78271 18.3453 6.99025 18.9282 7.99982C19.5115 9.01015 20.5938 9.55283 21.6841 9.49631C21.8903 10.2964 22 11.1353 22 11.9998C22 12.8643 21.8903 13.7032 21.6841 14.5033C20.5938 14.4468 19.5115 14.9895 18.9282 15.9998C18.3453 17.0094 18.4159 18.2169 19.0088 19.1326C17.8165 20.3043 16.3317 21.1794 14.674 21.6383C14.1778 20.6658 13.1667 19.9998 12 19.9998C10.8333 19.9998 9.8222 20.6658 9.32603 21.6383C7.66832 21.1794 6.18354 20.3043 4.99121 19.1326C5.58406 18.2169 5.65467 17.0094 5.0718 15.9998C4.48848 14.9895 3.40622 14.4468 2.31595 14.5033C2.1097 13.7032 2 12.8643 2 11.9998ZM6.80385 14.9998C7.43395 16.0912 7.61458 17.3459 7.36818 18.5236C7.77597 18.8138 8.21005 19.0652 8.66489 19.2741C9.56176 18.4712 10.7392 17.9998 12 17.9998C13.2608 17.9998 14.4382 18.4712 15.3351 19.2741C15.7899 19.0652 16.224 18.8138 16.6318 18.5236C16.3854 17.3459 16.566 16.0912 17.1962 14.9998C17.8262 13.9085 18.8225 13.1248 19.9655 12.7493C19.9884 12.5015 20 12.2516 20 11.9998C20 11.7481 19.9884 11.4981 19.9655 11.2504C18.8225 10.8749 17.8262 10.0912 17.1962 8.99982C16.566 7.90845 16.3854 6.65378 16.6318 5.47605C16.224 5.18588 15.7899 4.93447 15.3351 4.72552C14.4382 5.52844 13.2608 5.99982 12 5.99982C10.7392 5.99982 9.56176 5.52844 8.66489 4.72552C8.21005 4.93447 7.77597 5.18588 7.36818 5.47605C7.61458 6.65378 7.43395 7.90845 6.80385 8.99982C6.17376 10.0912 5.17754 10.8749 4.03451 11.2504C4.01157 11.4981 4 11.7481 4 11.9998C4 12.2516 4.01157 12.5015 4.03451 12.7493C5.17754 13.1248 6.17376 13.9085 6.80385 14.9998ZM12 14.9998C10.3431 14.9998 9 13.6567 9 11.9998C9 10.343 10.3431 8.99982 12 8.99982C13.6569 8.99982 15 10.343 15 11.9998C15 13.6567 13.6569 14.9998 12 14.9998ZM12 12.9998C12.5523 12.9998 13 12.5521 13 11.9998C13 11.4475 12.5523 10.9998 12 10.9998C11.4477 10.9998 11 11.4475 11 11.9998C11 12.5521 11.4477 12.9998 12 12.9998Z">
+                            </path>
+                        </svg>
+                        <p class="p">Setting</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left-bottom">
+                <div class="second">
+                    <div>
+                        <p class="clr">MY GROUP</p>
+                    </div>
+                    <div>
+                        <svg class="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84, 83, 83, 0.566)">
+                            <path
+                                d="M13.0001 10.9999L22.0002 10.9997L22.0002 12.9997L13.0001 12.9999L13.0001 21.9998L11.0001 21.9998L11.0001 12.9999L2.00004 13.0001L2 11.0001L11.0001 10.9999L11 2.00025L13 2.00024L13.0001 10.9999Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="th">
+                    <div>
+                        <p class="hover"> &#129309 Partner management</p>
+                    </div>
+                    <div>
+                        <p class="hover">&#129297 Sales pipeline</p>
+                    </div>
+                </div>
+            </div>
+            <div class="before">
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div>
+                        <p>All app</p>
+                    </div>
+
+                </div>
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <p>All people</p>
+                    </div>
+                </div>
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div>
+                        <p>All companies</p>
+                    </div>
+                </div>
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <p>All sales</p>
+                    </div>
+                </div>
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <p>All partners</p>
+                    </div>
+                </div>
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <p>All email</p>
+                    </div>
+                </div>
+                <div class="lis">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"
+                            fill="rgba(84,83,83,1)">
+                            <path
+                                d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                            </path>
+                        </svg></div>
+                    <div>
+                        <p>All groups</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="right">
+                <div class="top">
+                    <div>
+                        <p>&#129309 Partner management /</p>
+                    </div>
+                    <div class="small">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="15"
+                                fill="black">
+                                <path
+                                    d="M8 4H21V6H8V4ZM3 3.5H6V6.5H3V3.5ZM3 10.5H6V13.5H3V10.5ZM3 17.5H6V20.5H3V17.5ZM8 11H21V13H8V11ZM8 18H21V20H8V18Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="clr2">All partners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div>
+                        <h1>All Partners</h1>
+                    </div>
+                    <div class="left2">
+                        <div class="flex1">
+                            <div>
+                                <img class="im" src="./public/img/pic3.jpeg" alt="">
+                            </div>
+                            <div>
+                                <img class="im22" src="./public/img/pic2.avif" alt="">
+                            </div>
+                            <div>
+                                <img class="im3" src="./public/img/premium_photo-1688740375397-34605b6abe48.jpeg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div><button class="but2">Add contributor</button></div>
+                        <div><button class="but3">...</button></div>
+                    </div>
+                </div>
+                <div class="mid2">
+                    <div class="flex5">
+                        <div><button class="bu"> <svg class="s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    width="16" height="16" fill="rgba(43,39,39,1)">
+                                    <path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path>
+                                </svg>Add companies</button></div>
+                        <div><button class="bu"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18"
+                                    height="18" fill="rgba(43,42,42,1)">
+                                    <path
+                                        d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM20 7.23792L12.0718 14.338L4 7.21594V19H20V7.23792ZM4.51146 5L12.0619 11.662L19.501 5H4.51146Z">
+                                    </path>
+                                </svg>Email</button></div>
+                        <div><button class="bu"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18"
+                                    height="18" fill="currentColor">
+                                    <path
+                                        d="M15.1986 9.94447C14.7649 9.5337 14.4859 8.98613 14.4085 8.39384L14.0056 5.31138L11.275 6.79724C10.7503 7.08274 10.1433 7.17888 9.55608 7.06948L6.49998 6.50015L7.06931 9.55625C7.17871 10.1435 7.08257 10.7505 6.79707 11.2751L5.31121 14.0057L8.39367 14.4086C8.98596 14.4861 9.53353 14.7651 9.94431 15.1987L12.0821 17.4557L13.4178 14.6486C13.6745 14.1092 14.109 13.6747 14.6484 13.418L17.4555 12.0823L15.1986 9.94447ZM15.2238 15.5079L13.0111 20.1581C12.8687 20.4573 12.5107 20.5844 12.2115 20.442C12.1448 20.4103 12.0845 20.3665 12.0337 20.3129L8.49229 16.5741C8.39749 16.474 8.27113 16.4096 8.13445 16.3918L3.02816 15.7243C2.69958 15.6814 2.46804 15.3802 2.51099 15.0516C2.52056 14.9784 2.54359 14.9075 2.5789 14.8426L5.04031 10.3192C5.1062 10.1981 5.12839 10.058 5.10314 9.92253L4.16 4.85991C4.09931 4.53414 4.3142 4.22086 4.63997 4.16017C4.7126 4.14664 4.78711 4.14664 4.85974 4.16017L9.92237 5.10331C10.0579 5.12855 10.198 5.10637 10.319 5.04048L14.8424 2.57907C15.1335 2.42068 15.4979 2.52825 15.6562 2.81931C15.6916 2.88421 15.7146 2.95507 15.7241 3.02833L16.3916 8.13462C16.4095 8.2713 16.4739 8.39766 16.5739 8.49245L20.3127 12.0338C20.5533 12.2617 20.5636 12.6415 20.3357 12.8821C20.2849 12.9357 20.2246 12.9795 20.1579 13.0112L15.5078 15.224C15.3833 15.2832 15.283 15.3835 15.2238 15.5079ZM16.0206 17.435L17.4348 16.0208L21.6775 20.2634L20.2633 21.6776L16.0206 17.435Z">
+                                    </path>
+                                </svg>Enrich all</button></div>
+                    </div>
+                    <div class="flex">
+                        <div><button class="bu"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18"
+                                    height="18" fill="currentColor">
+                                    <path
+                                        d="M17.8827 19.2968C16.1814 20.3755 14.1638 21.0002 12.0003 21.0002C6.60812 21.0002 2.12215 17.1204 1.18164 12.0002C1.61832 9.62282 2.81932 7.5129 4.52047 5.93457L1.39366 2.80777L2.80788 1.39355L22.6069 21.1925L21.1927 22.6068L17.8827 19.2968ZM5.9356 7.3497C4.60673 8.56015 3.6378 10.1672 3.22278 12.0002C4.14022 16.0521 7.7646 19.0002 12.0003 19.0002C13.5997 19.0002 15.112 18.5798 16.4243 17.8384L14.396 15.8101C13.7023 16.2472 12.8808 16.5002 12.0003 16.5002C9.51498 16.5002 7.50026 14.4854 7.50026 12.0002C7.50026 11.1196 7.75317 10.2981 8.19031 9.60442L5.9356 7.3497ZM12.9139 14.328L9.67246 11.0866C9.5613 11.3696 9.50026 11.6777 9.50026 12.0002C9.50026 13.3809 10.6196 14.5002 12.0003 14.5002C12.3227 14.5002 12.6309 14.4391 12.9139 14.328ZM20.8068 16.5925L19.376 15.1617C20.0319 14.2268 20.5154 13.1586 20.7777 12.0002C19.8603 7.94818 16.2359 5.00016 12.0003 5.00016C11.1544 5.00016 10.3329 5.11773 9.55249 5.33818L7.97446 3.76015C9.22127 3.26959 10.5793 3.00016 12.0003 3.00016C17.3924 3.00016 21.8784 6.87992 22.8189 12.0002C22.5067 13.6998 21.8038 15.2628 20.8068 16.5925ZM11.7229 7.50857C11.8146 7.50299 11.9071 7.50016 12.0003 7.50016C14.4855 7.50016 16.5003 9.51488 16.5003 12.0002C16.5003 12.0933 16.4974 12.1858 16.4919 12.2775L11.7229 7.50857Z">
+                                    </path>
+                                </svg>18</button></div>
+                        <div><button class="bu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18"
+                                    height="18" fill="currentColor">
+                                    <path
+                                        d="M8.5 7C8.5 5.89543 7.60457 5 6.5 5C5.39543 5 4.5 5.89543 4.5 7C4.5 8.10457 5.39543 9 6.5 9C7.60457 9 8.5 8.10457 8.5 7ZM10.5 7C10.5 9.20914 8.70914 11 6.5 11C4.29086 11 2.5 9.20914 2.5 7C2.5 4.79086 4.29086 3 6.5 3C8.70914 3 10.5 4.79086 10.5 7ZM21 4H13V6H21V4ZM21 11H13V13H21V11ZM21 18H13V20H21V18ZM6.5 19C5.39543 19 4.5 18.1046 4.5 17C4.5 15.8954 5.39543 15 6.5 15C7.60457 15 8.5 15.8954 8.5 17C8.5 18.1046 7.60457 19 6.5 19ZM6.5 21C8.70914 21 10.5 19.2091 10.5 17C10.5 14.7909 8.70914 13 6.5 13C4.29086 13 2.5 14.7909 2.5 17C2.5 19.2091 4.29086 21 6.5 21ZM6.5 8C7.05228 8 7.5 7.55228 7.5 7C7.5 6.44772 7.05228 6 6.5 6C5.94772 6 5.5 6.44772 5.5 7C5.5 7.55228 5.94772 8 6.5 8Z">
+                                    </path>
+                                </svg></button></div>
+                        <div><button class="bu"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18"
+                                    height="18" fill="currentColor">
+                                    <path
+                                        d="M11.9995 13.4995 16.9492 18.4493 15.535 19.8635 12.9995 17.3279 12.9995 22.9995H10.9995L10.9995 17.3279 8.46643 19.861 7.05222 18.4468 11.9995 13.4995ZM10.9995.999512 10.9995 6.67035 8.46448 4.13535 7.05026 5.54956 12 10.4995 16.9497 5.54977 15.5355 4.13555 12.9995 6.67157V.999512L10.9995.999512Z">
+                                    </path>
+                                </svg></button></div>
+                        <div><button class="bu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18"
+                                    height="18" fill="currentColor">
+                                    <path
+                                        d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+                                    </path>
+                                </svg></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table">
+                    <table class="my-table" border="1">
+                        <thead>
+                            <tr>
+                                <th>checkbox</th>
+                                <th>Companies</th>
+                                <th>Contact Person</th>
+                                <th>Email</th>
+                                <th>Type of Partner</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/ama.jpg" alt="">
+                                        <span>Amazon</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic2.avif" alt="">
+                                        <span>Jordan Blak</span>
+                                    </div>
+                                </td>
+                                <td>jordanblake@gmail.com</td>
+                                <td>creative innovation</td>
+                                <td><a href="nvfnjj">link is here</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/Google__G__logo.svg.webp" alt="">
+                                        <span>Google</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic3.jpeg" alt="">
+                                        <span>Emily Smith</span>
+                                    </div>
+                                </td>
+                                <td>emily.smith@gmail.com</td>
+                                <td>Tech Partner</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/microd.png" alt="">
+                                        <span>Microsoft</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic1.jpg" alt="">
+                                        <span>Michael Lee</span>
+                                    </div>
+                                </td>
+                                <td>michael.lee@gmail.com</td>
+                                <td>Software Partner</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/ama.jpg" alt="">
+                                        <span>Amazon</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic2.avif" alt="">
+                                        <span>Jordan Blak</span>
+                                    </div>
+                                </td>
+                                <td>jordanblake@gmail.com</td>
+                                <td>creative innovation</td>
+                                <td><a href="nvfnjj">link is here</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/Google__G__logo.svg.webp" alt="">
+                                        <span>Google</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic3.jpeg" alt="">
+                                        <span>Emily Smith</span>
+                                    </div>
+                                </td>
+                                <td>emily.smith@gmail.com</td>
+                                <td>Tech Partner</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/microd.png" alt="">
+                                        <span>Microsoft</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic1.jpg" alt="">
+                                        <span>Michael Lee</span>
+                                    </div>
+                                </td>
+                                <td>michael.lee@gmail.com</td>
+                                <td>Software Partner</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/ama.jpg" alt="">
+                                        <span>Amazon</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic2.avif" alt="">
+                                        <span>Jordan Blak</span>
+                                    </div>
+                                </td>
+                                <td>jordanblake@gmail.com</td>
+                                <td>creative innovation</td>
+                                <td><a href="nvfnjj">link is here</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/Google__G__logo.svg.webp" alt="">
+                                        <span>Google</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic3.jpeg" alt="">
+                                        <span>Emily Smith</span>
+                                    </div>
+                                </td>
+                                <td>emily.smith@gmail.com</td>
+                                <td>Tech Partner</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/microd.png" alt="">
+                                        <span>Microsoft</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic1.jpg" alt="">
+                                        <span>Michael Lee</span>
+                                    </div>
+                                </td>
+                                <td>michael.lee@gmail.com</td>
+                                <td>Software Partner</td>
+                                <td><a href="#">Visit</a></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/ama.jpg" alt="">
+                                        <span>Amazon</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="td-content">
+                                        <img class="timg" src="./public/img/pic2.avif" alt="">
+                                        <span>Jordan Blak</span>
+                                    </div>
+                                </td>
+                                <td>jordanblake@gmail.com</td>
+                                <td>creative innovation</td>
+                                <td><a href="nvfnjj">link is here</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+</body>
+
+</html>
