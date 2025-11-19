@@ -24,9 +24,10 @@ body {
     flex-direction: column;
     padding-top: 3vw;
     padding-left: 1vw;
-    /* width: 20vw; */
     gap: 3.5vh;
-
+    box-sizing: border-box;  /* prevent padding from increasing width */
+    max-width: 100%;         /* never exceed the screen */
+    overflow-x: hidden;      /* stop side scroll */
 }
 .head {
     display: flex;
@@ -120,13 +121,13 @@ body {
     border-radius: 5px;
     padding: 0.8vh 0.8vh;
 }
-.second{
+.second {
     display: flex;
     justify-content: space-between;
-    /* background-color: #7851A9; */
     padding-left: 0.5vw;
     padding-top: 4vh;
     border-top: rgba(128, 128, 128, 0.338) solid 1px;
+    flex-wrap: wrap;  
 }
 .left-bottom {
     display: flex;
@@ -160,17 +161,17 @@ body {
     /* border-bottom: rgba(128, 128, 128, 0.397) solid 1px; */
 }
 .before {
-    padding-top: 2vh;
     height: 10vh;
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    /* background-color: aqua; */
-    padding: 2.5vh 4vw;
-    overflow-y: scroll;
-    scrollbar-width: thin; 
-    scrollbar-color: #ece9a1db rgb(203, 204, 201); 
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #ece9a1db rgb(203, 204, 201);
+    box-sizing: border-box; /* nb3do elina overflow */
 }
+
 .lis {
     display:flex ;
     gap: 0.6vw;
@@ -274,7 +275,7 @@ h1 {
     display: block;
  }
  .my-table {
-    border-collapse: collapse; /*kykheli ghi kht whd nice, single borders*/
+    border-collapse: collapse; /*kykheli ghi  single borders*/
 }
 .timg {
     width: 24px;
@@ -303,33 +304,89 @@ h1 {
  .bu:hover {
     background-color: rgba(255, 255, 0, 0.512);
  }
- @media (max-width:480px) {
-    .all {
+ .flex1 {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.head {
-    display: flex;
-    flex-direction: column;
-    /* padding-left: 14vw; */
-    justify-content: space-between;
     
+ }
+@media (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+    .search {
+    border-color: rgba(255, 255, 0, 0.47);
+    background-color: rgba(168, 168, 164, 0.319);
+    padding: 0.6vw;
+    border-width: 1px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' fill='rgba(173,184,194,1)'%3E%3Cpath d='M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    padding-left: 8vw;
+     width: 60vw;
+    
+     
 }
-.i {
-    padding-left: 40vw;
+.second {
+    /* background-color: aqua; */
+    width: 90vw;
 }
-.left-top {
-    display: flex;
+.svg2 {
+    padding-right: 0vw;
+}
+
+    .list3{
+          flex-wrap: wrap;
+    }
+
+    .before {
+
+    overflow-x: hidden;
+     /* background-color: aqua; */
+}
+   .all {
     flex-direction: column;
-    padding-top: 3vw;
-    padding-left: 6vw;
-    /* width: 20vw; */
-    gap: 3.5vh;
+    overflow-x: scroll;
+   }
+   .right {
+    background-color: white;
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+   }
+    .table {
+        width: 100%;
+        font-size: 14px;
+        overflow-y: scroll;
+    }
+    .flex1 {
+        /* flex-direction: column; */
+    }
+    .flex5 {
+        flex-direction: column;
+    }
+    .mid2 {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 4vh;
+    align-items: self-start;
 
 }
-.big {
-    display: flex;
+.left2 {
     flex-direction: column;
-    height: fit-content;
 }
+.middle {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.big {
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 7.3vh;
+    border-bottom: rgba(0, 0, 0, 0.497) solid 2px;
+
+}
+
+}
+
+
+
+
