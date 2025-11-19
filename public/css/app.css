@@ -5,6 +5,8 @@
 }
 body {
     background-color: gainsboro;
+    width: 100% ;
+    overflow-x: hidden;
 }
 .all {
     display: flex;
@@ -181,7 +183,7 @@ body {
     background-color:white;
     margin-top: 2vh;
     border-radius: 5px;
-    width: 75vw;
+    width: 100%;
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 1vh;
@@ -189,6 +191,7 @@ body {
 .top {
     display: flex;
     color: rgb(84, 83, 83);
+    width: 100%;
 
 }
 .clr2 {
@@ -227,6 +230,7 @@ h1 {
     gap: 1vw;
     padding-top: 3vh;
     padding-right: 0.5vw;
+    /* width: 100%; */
 }
 .flex1 {
     display: flex;
@@ -343,7 +347,7 @@ h1 {
 }
    .all {
     flex-direction: column;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
    }
    .right {
     background-color: white;
